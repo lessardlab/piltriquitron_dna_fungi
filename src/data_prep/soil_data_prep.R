@@ -70,7 +70,7 @@ PineDat <- read.csv("data/PineMeasuresFeb2019.csv")
 
 soil <- data.frame(soil,PineDat[c("Lat", "Lon")][match(soil$Muestra, PineDat$Code),])
 
-saveRDS(soil, 'soil.RDS')
+saveRDS(soil, 'data/soil.RDS')
 message("final dataset <<soil>> stored in /data at soil.RDS")
 #==============
 # Figures
