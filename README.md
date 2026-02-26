@@ -1,6 +1,6 @@
-# Piltriquitrón DNA & Fungi Data Preparation
+# Piltriquitrón  Data 
 
-Data preparation workflows for the Piltriquitrón restoration experiment.
+Data preparation workflows for the Piltriquitrón field site.
 
 This repository contains R scripts that transform raw field + sequencing tables into curated `.RDS` datasets used for downstream ecological analyses.
 
